@@ -1,14 +1,68 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><img width = 250px, height = 200px src="logos-rgb-png_1.png"></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+<p align="center"><img src="https://img.shields.io/badge/STATUS-FINISHED-GREEN"></p>
+  
+# *Introduction* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/f963cbe0-2639-4950-81d2-6f41e4f9a7f5">
+Mathematical Progression is an exciting project that aims to revolutionize the way children from 12 to 16 years old learn mathematics. Through an interactive and user-friendly web platform, combining cutting-edge technologies such as React and PHP, we are creating an educational experience that is engaging, effective and, most importantly, fun. Join us on this journey to transform math learning into an exciting adventure for young learners.
 
+# *Description of the project* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/53786f41-5b13-4265-a20d-a478d3aaff27">
+The "Progresión Matemática" website is an interactive and user-friendly platform that offers educational content, games and activities for learning mathematics and logical-mathematical thinking. Children will be able to explore different mathematical topics adapted to their age level, access clear explanations and perform practical exercises. 
+In terms of its features are:
+- Sections differentiated by age levels to adapt the content to the specific needs of each group.
+- Educational content structured in topics for each level.
+- Clear and concise explanations of the concepts, using language accessible to children in downloadable pdf format and images.
+- Intuitive and attractive interface, with a colorful and child-friendly design.
+- Compatible with different devices.
+
+# *Functionalities* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/cd1cfd60-fde6-423f-a2b0-638571ee0b00">
+"Progresión Matemática" is designed to offer an interactive and effective learning experience. Some of the key functionalities you will find in our platform include:
+ - **Structured Educational Content:** We offer a wide range of mathematical topics structured at different levels of difficulty, allowing students to choose according to their knowledge and skills.
+ - **Clear and Concise Explanations:** Each mathematical concept is presented in a clear and accessible way, with explanations in downloadable format (PDF) and images that facilitate understanding.
+ - **Age-Differentiated Sections:** We adapt the content to different age groups, ensuring that the challenges and exercises are appropriate for children based on their developmental level.
+ - **Intuitive and Attractive Interface:** Our platform has a colorful and friendly design that attracts children's attention and makes navigation easy.
+ - **Responsive Design:** Progresión Matemática is compatible with a variety of devices and screen sizes, allowing users to access the content from desktop computers, tablets and mobile devices.
+ - **Integrated Database:** We use a MySQL database to store and manage the educational resources available on the platform, making it easy to organize and update content.<br>
+These functionalities work together to provide children with a unique and stimulating mathematical learning experience.
+
+# *How users can use it* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/267ff4c9-035a-4a54-8f0f-f708271c3538">
+In order to visualize the frontend part of this project properly you need react and axios installed.<br>
+First of all please clone the repository:
+ - https://github.com/Sara-Poyo-Pastor/PROGRESION_MATEMATICA.git  <br><br>
+
+You can run the project with:
+  
+        npm start
+Run the following command to install all the required dependencies for the project:
+
+        npm install
+To start the development server, use the following command:
+        
+        npm run dev
+To display it in the browser, open your local host:
+  
+        http://localhost:5173
+
+The page will automatically reload if you make changes to the code.<br>
+You will see the build errors and lint warnings in the console.<br>
+
+--------------------------------------------------------------
+In order to visualize the backend part of this project properly you need PHP and laravel installed.<br>
+First of all please clone the repository:
+ - https://github.com/Sara-Poyo-Pastor/ProMat.git<br><br>
+
+Run the following command to install all the required dependencies for the project:
+
+        composer install
+To start the Laravel development server, use:
+
+        php artisan serve
+The backend will be accessible at http://127.0.0.1:8000 (or your localhost).
+
+# *Learn more about React*  <img width = 50px, height = 50px src="https://github.com/anaencinasd/covid-19-tracker/assets/132446932/ab824237-1db4-47dd-838f-164f652c95f9">
+You can find detailed instructions on using Create React App and many tips in [its documentation](https://create-react-app.dev/).<br>
+
+# *Learn more about Laravel*  <img width = 150px, height = 50px src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg">
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
@@ -20,47 +74,14 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Laravel has the most extensive and thorough documentation and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## Learning Laravel
+You may also try the Laravel Bootcamp, where you will be guided through building a modern Laravel application from scratch.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+If you don't feel like reading, Laracasts can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.<br>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# *Technologies used*  <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/2b95686d-c3b6-4531-8d2b-949f40e82941">
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/22852c80-126f-48ba-b936-11fc13f88e89"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/e10e887d-8201-47b9-b3a5-6b6d935c46f3"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/5a6d57b3-16d4-4ee8-8109-d632269201c3"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/040624dc-3b70-45c6-bad1-369515d17750"> <img width = 70px, height = 70px src="https://github.com/anaencinasd/covid-19-tracker/assets/132446932/706fcd45-23b0-495d-b430-fa20f7864790"> <img width = 70px, height = 70px src="https://github.com/Sara-Poyo-Pastor/ToDo-List/assets/132446932/57056c57-5fe5-4441-b58c-600de69a8a66"> <img width = 100px, height = 70px src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg"> <img width = 70px, height = 70px src="https://github.com/Sara-Poyo-Pastor/ToDo-List/assets/132446932/04a451a4-65df-4fca-ab42-ea9d825f1b96">
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<br>
