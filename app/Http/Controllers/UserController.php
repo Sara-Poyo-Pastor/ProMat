@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-//use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Auth;
+
 
 
 class UserController extends Controller
@@ -20,15 +21,15 @@ class UserController extends Controller
     }
 
     /**
-     * Store a newly created user in storage.
+     * Store a newly created user in storage. en 
      */
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required|string|max:255',
-            'lastname' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8',
+            'name' => 'string|max:255',
+            'lastname' => 'string|max:255',
+            'email' => 'string|email|max:255|unique:users',
+            'password' => 'string|min:8',
         ]);
     
         // Hash the password before storing
@@ -62,10 +63,10 @@ class UserController extends Controller
         }
 
         $request->validate([
-            'name' => 'sometimes|required|string|max:255',
-            'lastname' => 'sometimes|required|string|max:255',
-            'email' => 'sometimes|required|string|email|max:255|unique:users,email,' . $user->id,
-            'password' => 'sometimes|required|string|min:8',
+            'name' => 'sometimes|string|max:255',
+            'lastname' => 'sometimes|string|max:255',
+            'email' => 'sometimes|string|email|max:255|unique:users,email,' . $user->id,
+            'password' => 'sometimes|string|min:8',
         ]);
 
         if ($request->has('name')) {
@@ -99,4 +100,21 @@ class UserController extends Controller
         $user->delete();
         return response()->json(['message' => 'Usuario eliminado exitosamente']);
 }
+
+public function login(Request $request)
+{
+    $credentials = $request->only('email', 'password');
+
+    if (Auth::attempt($credentials)) {
+        // Autenticación exitosa
+        return response()->json(['message' => 'Inicio de sesión exitoso'], 200);
+    }
+
+    // Autenticación fallida
+    return response()->json(['message' => 'Credenciales incorrectas'], 401);
 }
+
+
+}
+
+
